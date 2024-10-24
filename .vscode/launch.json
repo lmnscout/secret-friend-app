@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ci-alura-course-main (Flutter Tests)",
+            "program": "test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ci-alura-course-main (Flutter)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
