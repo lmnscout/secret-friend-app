@@ -2,14 +2,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ci-alura-course-main (Flutter Tests)",
+            "name": "TEST - ci-alura-course-main (Flutter Tests)",
             "program": "test",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "ci-alura-course-main (Flutter)",
+            "name": "DEBUG - ci-alura-course-main (Flutter debug mode)",
             "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "ITEST - ci-alura-course-main (Flutter Integration Tests)",
+            "program": "integration_test",
             "request": "launch",
             "type": "dart"
         }

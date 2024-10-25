@@ -20,9 +20,7 @@ void main() {
       // Verify that the widget renders as expected.
       expect(find.text('Quem vai tirar o papelzinho?'), findsOneWidget);
       expect(find.byType(DropdownInputWidget), findsOneWidget);
-      expect(
-          find.text('Clique em em sortear para ver quem é seu amigo secreto!'),
-          findsOneWidget);
+      expect(find.text('Clique em em sortear para ver quem é seu amigo secreto!'), findsOneWidget);
       expect(find.byType(Image), findsOneWidget);
     });
 
